@@ -1,0 +1,68 @@
+* General Purpose Bandgap Reference circuit avsdbgp_3v3- Technology: sky130
+.lib "../../libs/models/sky130.lib.spice" tt
+.include "../../libs/models/sky130_fd_pr__model__pnp.model.spice"
+
+
+.option scale=0.005u
+
+X0 F VBGP VSSA sky130_fd_pr__res_xhigh_po w=70 l=9300
+X3 E J VSSA sky130_fd_pr__res_xhigh_po w=70 l=1044
+X7 K VDDA VSSA sky130_fd_pr__res_xhigh_po w=70 l=6998
+
+X1 sky130_fd_pr__pnp_05v5_W3p40L3p40_0/c_153_607# VSSA E sky130_fd_pr__pnp_05v5_W3p40L3p40_0/c_153_607# sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+X2 sky130_fd_pr__pnp_05v5_W3p40L3p40_1/c_153_607# VSSA E sky130_fd_pr__pnp_05v5_W3p40L3p40_1/c_153_607# sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+X4 sky130_fd_pr__pnp_05v5_W3p40L3p40_3/c_153_607# VSSA E sky130_fd_pr__pnp_05v5_W3p40L3p40_3/c_153_607# sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+X5 sky130_fd_pr__pnp_05v5_W3p40L3p40_2/c_153_607# VSSA E sky130_fd_pr__pnp_05v5_W3p40L3p40_2/c_153_607# sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+X6 sky130_fd_pr__pnp_05v5_W3p40L3p40_4/c_153_607# VSSA I sky130_fd_pr__pnp_05v5_W3p40L3p40_4/c_153_607# sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+X8 sky130_fd_pr__pnp_05v5_W3p40L3p40_5/c_153_607# VSSA F sky130_fd_pr__pnp_05v5_W3p40L3p40_5/c_153_607# sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+X9 sky130_fd_pr__pnp_05v5_W3p40L3p40_6/c_153_607# VSSA E sky130_fd_pr__pnp_05v5_W3p40L3p40_6/c_153_607# sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+X10 sky130_fd_pr__pnp_05v5_W3p40L3p40_7/c_153_607# VSSA E sky130_fd_pr__pnp_05v5_W3p40L3p40_7/c_153_607# sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+X11 sky130_fd_pr__pnp_05v5_W3p40L3p40_8/c_153_607# VSSA E sky130_fd_pr__pnp_05v5_W3p40L3p40_8/c_153_607# sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+X13 sky130_fd_pr__pnp_05v5_W3p40L3p40_9/c_153_607# VSSA E sky130_fd_pr__pnp_05v5_W3p40L3p40_9/c_153_607# sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+
+X12 B En I VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=113 ps=0 w=4000 l=1000
+X14 D A C VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4000 l=1000
+X15 A A B VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4000 l=1000
+X16 J En D VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=-1 pd=-1 as=0 ps=0 w=4000 l=1000
+X17 H En VBGP VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4000 l=1000
+X18 C G VSSA VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4000 l=1000
+X19 G En K VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4000 l=1000
+X20 G A VSSA VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4000 l=200
+X21 A C VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4000 l=1000
+X22 C C VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4000 l=1000
+X23 H C VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=4000 l=1000
+
+C0 K G 0.25fF
+C1 K VBGP 0.27fF
+C2 G A 0.12fF
+C3 C VBGP 0.55fF
+C4 A VBGP 0.28fF
+C5 C En 0.61fF
+C6 En A 0.53fF
+C7 VDDA C 0.09fF
+C8 VDDA A 0.10fF
+C9 I A 0.12fF
+C10 I J 0.28fF
+C11 C A 0.67fF
+C12 G En 0.65fF
+C13 En VBGP 0.22fF
+C14 H VDDA 0.04fF
+C15 VDDA VSSA 82.44fF
+C16 E VSSA 4.86fF
+
+R3 GND VBGP 100MEG
+
+VSS VSSA GND DC 0V
+VDD VDDA GND DC 3.3V
+VD En GND DC 3.3V
+
+.dc temp -40 140 0.1
+
+.control
+run
+plot deriv(v(VBGP))/1.19
+
+.endc
+
+.end
+
