@@ -66,7 +66,7 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 The files from this repository can be downloaded and used by the following commands :-
 >`sudo apt install -y git`
 
->`git clone https://github.com/vsdip/avsdbgp_3v3_sky130_v2.git
+>`git clone https://github.com/vsdip/avsdbgp_3v3_sky130_v2.git`
 <p>&nbsp;</p>
 
 # Pre-Layout Simulation of Bandgap Reference IP circuit
