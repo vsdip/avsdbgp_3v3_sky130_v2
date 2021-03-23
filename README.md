@@ -295,7 +295,7 @@ The output plot as obtained can be seen below :-
 # Author
 * [Anmol Purty](https://github.com/an3ol)
 
-# Acknowledgement
+# Acknowledgements
 
 * [Kunal Ghosh](https://github.com/kunalg123), Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 * [Tim Edwards](https://github.com/RTimothyEdwards), Senior Vice President of Analog and Design at efabless corporation.
