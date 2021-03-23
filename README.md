@@ -66,7 +66,7 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 The files from this repository can be downloaded and used by the following commands :-
 >`sudo apt install -y git`
 
->`git clone https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3.git`
+>`git clone https://github.com/vsdip/avsdbgp_3v3_sky130_v2.git
 <p>&nbsp;</p>
 
 # Pre-Layout Simulation of Bandgap Reference IP circuit
@@ -94,7 +94,7 @@ After successful installation, to invoke Ngspice type the following command on t
 To simulate the files for Pre- Layout simulations
 <p>&nbsp;</p>
 
->`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Pre_Layout_Simulations/Circuits/`
+>`cd avsdbgp_3v3_sky130_v2/Pre_Layout_Simulations/Circuits/`
 <p>&nbsp;</p>
 
 ## Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
@@ -108,11 +108,11 @@ The output plot as obtained can be seen below :-
 
 <p>&nbsp;</p>
 
-![Vbgp vs Temperature](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/temp_var.png)
+![Vbgp vs Temperature](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Pre_Layout_Simulations/Results/temp_var.png)
 <p>&nbsp;</p>
 
 
-![Vbgp Vptat Vctat vs Temperature](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/temp_all.png)
+![Vbgp Vptat Vctat vs Temperature](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Pre_Layout_Simulations/Results/temp_all.png)
 <p>&nbsp;</p>
 
 ## Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
@@ -125,7 +125,7 @@ To observe the effect of Supply voltage on the circuit, the temperature is varie
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Voltage vs Vbgp](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/vdd_var.png)
+![Voltage vs Vbgp](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Pre_Layout_Simulations/Results/vdd_var.png)
 <p>&nbsp;</p>
 
 ## Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
@@ -138,7 +138,7 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Temperature coefficient of Vbgp](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/temp_coeff.png)
+![Temperature coefficient of Vbgp](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Pre_Layout_Simulations/Results/temp_coeff.png)
 <p>&nbsp;</p>
 
 ## Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
@@ -151,7 +151,7 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Voltage coefficient of Vbgp](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/vol_coeff.png)
+![Voltage coefficient of Vbgp](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Pre_Layout_Simulations/Results/vol_coeff.png)
 <p>&nbsp;</p>
 
 ## Start-Up Time of Vbgp @ RL = 100M ohms plot
@@ -164,7 +164,7 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Start up circuit](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/Startup.png)
+![Start up circuit](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Pre_Layout_Simulations/Results/Startup.png)
 <p>&nbsp;</p>
 
 ## On-Off-Current of Vbgp wrt Enable @ RL = 100M ohms plot
@@ -177,7 +177,7 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Enable](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/enable_current.png)
+![Enable](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Pre_Layout_Simulations/Results/enable_current.png)
 <p>&nbsp;</p>
 
 # BGR Layout
@@ -206,7 +206,7 @@ The Layout for the circuit was done using Magic Layout editor tool. To observe t
 After successful installation, type:-
 <p>&nbsp;</p>
 
->`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Layout/`
+>`cd avsdbgp_3v3_sky130_v2/Layout/`
 
 >` magic -T ../libs/sky130A.tech BGR.mag`
 <p>&nbsp;</p>
@@ -219,7 +219,7 @@ After successful installation, type:-
 
 To simulate the files for Post-Layout simulations using ngspice :-
 
->`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Post_Layout_Simulations/Circuits/`
+>`cd avsdbgp_3v3_sky130_v2/Post_Layout_Simulations/Circuits/`
 <p>&nbsp;</p>
 
 ## Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
@@ -233,11 +233,11 @@ The output plot as obtained can be seen below :-
 
 <p>&nbsp;</p>
 
-![Vbgp vs Temperature](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Post_Layout_Simulations/Results/temp.png)
+![Vbgp vs Temperature](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Post_Layout_Simulations/Results/temp.png)
 <p>&nbsp;</p>
 
 
-![Vbgp Vptat Vctat vs Temperature](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Post_Layout_Simulations/Results/temp_all.png)
+![Vbgp Vptat Vctat vs Temperature](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Post_Layout_Simulations/Results/temp_all.png)
 <p>&nbsp;</p>
 
 ## Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
@@ -250,7 +250,7 @@ To observe the effect of Supply voltage on the circuit, the temperature is varie
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Voltage vs Vbgp](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Post_Layout_Simulations/Results/vdd_var.png)
+![Voltage vs Vbgp](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Post_Layout_Simulations/Results/vdd_var.png)
 <p>&nbsp;</p>
 
 ## Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
@@ -263,7 +263,7 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Temperature coefficient of Vbgp](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Post_Layout_Simulations/Results/temp_coeff.png)
+![Temperature coefficient of Vbgp](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Post_Layout_Simulations/Results/temp_coeff.png)
 <p>&nbsp;</p>
 
 ## Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
@@ -276,7 +276,7 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Voltage coefficient of Vbgp](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Post_Layout_Simulations/Results/vol_coeff.png)
+![Voltage coefficient of Vbgp](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Post_Layout_Simulations/Results/vol_coeff.png)
 <p>&nbsp;</p>
 
 ## Start-Up Time of Vbgp @ RL = 100M ohms plot
@@ -289,7 +289,7 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Start up circuit](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Post_Layout_Simulations/Results/Startup.png)
+![Start up circuit](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Post_Layout_Simulations/Results/Startup.png)
 <p>&nbsp;</p>
 
 
