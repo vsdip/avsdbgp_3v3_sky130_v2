@@ -292,12 +292,13 @@ The output plot as obtained can be seen below :-
 ![Start up circuit](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/Post_Layout_Simulations/Results/Startup.png)
 <p>&nbsp;</p>
 
-
-
+# Author
+* [Anmol Purty](https://github.com/an3ol)
 
 # Acknowledgement
 
-* [Kunal Ghosh](https://github.com/kunalg123), Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd
+* [Kunal Ghosh](https://github.com/kunalg123), Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+* [Tim Edwards](https://github.com/RTimothyEdwards), Senior Vice President of Analog and Design at efabless corporation.
 * [Sheryl Corina Serrao](https://github.com/sherylcorina), Undergraduate Student, Mumbai University.
 
 # Contact Information
