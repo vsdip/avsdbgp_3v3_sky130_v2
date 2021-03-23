@@ -1,4 +1,4 @@
-# General Purpose Bandgap Reference-avsdbgp_3v3_sky130_v2
+# General Purpose Bandgap Reference Circuit - avsdbgp_3v3_sky130_v2
 
 A Bandgap Reference is an analog circuit, which is used to provide a constant output reference voltage being independent of Temperature, Process and Supply voltage variations. The analog IP **avsdbgp_3v3** is a General Purpose Bandgap Reference ciruit, which is designed using **Sky130nm** technology in this project.
 
