@@ -1,0 +1,20 @@
+* SPICE3 file created from resistor30k.ext - technology: sky130A
+
+.option scale=0.01u
+.lib "/home/anmol/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/skywater-pdk/libraries/sky130_fd_pr/latest/models/sky130.lib.spice" tt
+
+* Simple voltage across a modeled device resistor
+V1 0 A DC 3.3
+X0 0 A 0 sky130_fd_pr__res_xhigh_po w=35 l=3501
+C0 A 0 0.59fF
+C1 0 0 0.59fF
+
+.control
+op lin 0 3.3
+run
+echo resistance
+print V(A)/V1#branch
+quit
+.endc
+
+.end

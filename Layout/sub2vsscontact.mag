@@ -1,0 +1,23 @@
+magic
+tech sky130A
+timestamp 1615639835
+<< psubdiff >>
+rect 0 475 200 500
+rect 0 20 23 475
+rect 180 20 200 475
+rect 0 0 200 20
+<< psubdiffcont >>
+rect 23 20 180 475
+<< locali >>
+rect 0 475 200 500
+rect 0 20 23 475
+rect 180 20 200 475
+rect 0 0 200 20
+<< viali >>
+rect 23 20 180 475
+<< metal1 >>
+rect 0 475 200 500
+rect 0 20 23 475
+rect 180 20 200 475
+rect 0 0 200 20
+<< end >>

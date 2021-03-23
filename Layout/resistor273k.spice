@@ -1,0 +1,7 @@
+* SPICE3 file created from resistor273k.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 a_n242_n32# a_4645_n31# SUB sky130_fd_pr__res_xhigh_po w=35 l=4650
+C0 a_4645_n31# SUB 0.81fF
+C1 a_n242_n32# SUB 0.81fF

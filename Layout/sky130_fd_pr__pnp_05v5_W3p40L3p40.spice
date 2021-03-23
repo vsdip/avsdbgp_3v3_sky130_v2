@@ -1,0 +1,8 @@
+* SPICE3 file created from sky130_fd_pr__pnp_05v5_W3p40L3p40.ext - technology: sky130A
+
+.option scale=5000u
+
+X0 a_330_330# w_153_153# c_153_607# sky130_fd_pr__pnp_05v0 area=0
+C0 w_153_153# a_330_330# 0.36fF
+C1 a_330_330# w_26_26# 0.32fF
+C2 w_153_153# w_26_26# 1.65fF

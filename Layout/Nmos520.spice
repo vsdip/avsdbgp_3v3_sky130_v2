@@ -1,0 +1,6 @@
+* SPICE3 file created from Nmos520.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 a_1600_0# a_1100_n50# a_1000_0# SUB sky130_fd_pr__nfet_g5v0d10v5 ad=8.98923e+08 pd=21850 as=9.20349e+08 ps=21850 w=2000 l=500
+C0 a_1100_n50# SUB 1.19fF

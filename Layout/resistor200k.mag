@@ -1,0 +1,9 @@
+magic
+tech sky130A
+timestamp 1615980034
+<< xpolycontact >>
+rect 2774 4686 2876 4907
+rect 2777 966 2879 1187
+<< xpolyres >>
+rect 2808 1187 2843 4686
+<< end >>

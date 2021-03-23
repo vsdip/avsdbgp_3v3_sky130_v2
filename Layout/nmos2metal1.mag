@@ -1,0 +1,23 @@
+magic
+tech sky130A
+timestamp 1615594203
+<< mvndiff >>
+rect -10 70 90 80
+rect -10 10 10 70
+rect 70 10 90 70
+rect -10 -10 90 10
+<< mvndiffc >>
+rect 10 10 70 70
+<< locali >>
+rect 0 70 80 80
+rect 0 10 10 70
+rect 70 10 80 70
+rect 0 0 80 10
+<< viali >>
+rect 10 10 70 70
+<< metal1 >>
+rect 0 70 80 80
+rect 0 10 10 70
+rect 70 10 80 70
+rect 0 0 80 10
+<< end >>

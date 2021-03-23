@@ -1,0 +1,14 @@
+magic
+tech sky130A
+timestamp 1615566544
+<< nwell >>
+rect -200 -200 900 2200
+<< mvpmos >>
+rect 100 0 600 2000
+<< mvpdiff >>
+rect 0 0 100 2000
+rect 600 0 700 2000
+<< poly >>
+rect 100 2000 600 2050
+rect 100 -50 600 0
+<< end >>

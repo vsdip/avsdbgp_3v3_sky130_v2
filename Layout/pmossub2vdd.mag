@@ -1,0 +1,39 @@
+magic
+tech sky130A
+timestamp 1615590023
+<< nwell >>
+rect 0 0 200 300
+<< nsubdiff >>
+rect 26 250 170 272
+rect 26 50 50 250
+rect 150 50 170 250
+rect 26 29 170 50
+<< nsubdiffcont >>
+rect 50 50 150 250
+<< locali >>
+rect 0 250 200 300
+rect 0 50 50 250
+rect 150 50 200 250
+rect 0 0 200 50
+<< viali >>
+rect 50 50 150 250
+<< metal1 >>
+rect 0 250 200 300
+rect 0 50 50 250
+rect 150 50 200 250
+rect 0 0 200 50
+<< via1 >>
+rect 50 50 150 250
+<< metal2 >>
+rect 0 250 200 300
+rect 0 50 50 250
+rect 150 50 200 250
+rect 0 0 200 50
+<< via2 >>
+rect 50 50 150 250
+<< metal3 >>
+rect 0 250 200 300
+rect 0 50 50 250
+rect 150 50 200 250
+rect 0 0 200 50
+<< end >>

@@ -1,0 +1,347 @@
+timestamp 1616493613
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use sky130_fd_pr__pnp_05v5_W3p40L3p40 sky130_fd_pr__pnp_05v5_W3p40L3p40_5 1 0 -1922 0 1 -7956
+use sky130_fd_pr__pnp_05v5_W3p40L3p40 sky130_fd_pr__pnp_05v5_W3p40L3p40_0 1 0 -1930 0 1 -8804
+use sub2vsscontact sub2vsscontact_9 1 0 -1798 0 1 -10002
+use sky130_fd_pr__pnp_05v5_W3p40L3p40 sky130_fd_pr__pnp_05v5_W3p40L3p40_6 1 0 -1100 0 1 -7940
+use sky130_fd_pr__pnp_05v5_W3p40L3p40 sky130_fd_pr__pnp_05v5_W3p40L3p40_1 1 0 -1100 0 1 -8796
+use sky130_fd_pr__pnp_05v5_W3p40L3p40 sky130_fd_pr__pnp_05v5_W3p40L3p40_7 1 0 -284 0 1 -7948
+use sky130_fd_pr__pnp_05v5_W3p40L3p40 sky130_fd_pr__pnp_05v5_W3p40L3p40_2 1 0 -276 0 1 -8796
+use sub2vsscontact sub2vsscontact_10 1 0 -556 0 1 -10006
+use sky130_fd_pr__pnp_05v5_W3p40L3p40 sky130_fd_pr__pnp_05v5_W3p40L3p40_9 1 0 1334 0 1 -7934
+use sky130_fd_pr__pnp_05v5_W3p40L3p40 sky130_fd_pr__pnp_05v5_W3p40L3p40_8 1 0 530 0 1 -7932
+use sky130_fd_pr__pnp_05v5_W3p40L3p40 sky130_fd_pr__pnp_05v5_W3p40L3p40_4 1 0 1328 0 1 -8780
+use sky130_fd_pr__pnp_05v5_W3p40L3p40 sky130_fd_pr__pnp_05v5_W3p40L3p40_3 1 0 530 0 1 -8796
+use sub2vsscontact sub2vsscontact_11 1 0 658 0 1 -10002
+use sub2vsscontact sub2vsscontact_12 1 0 1894 0 1 -9986
+use resistor30k resistor30k_0 0 1 8206 -1 0 -5880
+use Nmos520 Nmos520_6 1 0 5400 0 1 -7902
+use Nmos120 Nmos120_0 1 0 6800 0 1 -7902
+use sub2vsscontact sub2vsscontact_0 1 0 6802 0 1 -10002
+use Nmos520 Nmos520_5 1 0 6998 0 1 -7904
+use nmos2metal1 nmos2metal1_8 1 0 9018 0 1 -7880
+use sub2vsscontact sub2vsscontact_1 1 0 8198 0 1 -10004
+use Nmos520 Nmos520_0 1 0 8486 0 1 -7900
+use sub2vsscontact sub2vsscontact_2 1 0 9600 0 1 -10002
+use Nmos520 Nmos520_1 1 0 10002 0 1 -7900
+use sub2vsscontact sub2vsscontact_3 1 0 11000 0 1 -10002
+use nmos2metal1 nmos2metal1_1 1 0 13222 0 1 -7880
+use Nmos520 Nmos520_2 1 0 11500 0 1 -7894
+use sub2vsscontact sub2vsscontact_4 1 0 12400 0 1 -10004
+use Nmos520 Nmos520_3 1 0 12998 0 1 -7898
+use sub2vsscontact sub2vsscontact_5 1 0 13796 0 1 -10004
+use nmos2metal1 nmos2metal1_5 1 0 16220 0 1 -7878
+use sub2vsscontact sub2vsscontact_6 1 0 15200 0 1 -9998
+use Nmos520 Nmos520_4 1 0 14600 0 1 -7900
+use sub2vsscontact sub2vsscontact_7 1 0 16598 0 1 -10000
+use sub2vsscontact sub2vsscontact_8 1 0 18000 0 1 -10000
+use resistor273k resistor273k_0 1 0 -3016 0 1 -1730
+use nmos2metal1 nmos2metal1_7 1 0 7420 0 1 -4080
+use nmos2metal1 nmos2metal1_3 1 0 8620 0 1 -4080
+use nmos2metal1 nmos2metal1_2 1 0 10220 0 1 -4080
+use Pmos520 Pmos520_0 1 0 11400 0 1 -1600
+use nmos2metal1 nmos2metal1_10 1 0 12020 0 1 -4080
+use nmos2metal1 nmos2metal1_9 1 0 11718 0 1 -4106
+use Pmos520 Pmos520_1 1 0 13600 0 1 -1600
+use nmos2metal1 nmos2metal1_12 1 0 15018 0 1 -4068
+use nmos2metal1 nmos2metal1_11 1 0 14726 0 1 -4060
+use Pmos520 Pmos520_2 1 0 15800 0 1 -1600
+use nmos2metal1 nmos2metal1_4 1 0 16620 0 1 -4080
+use resistor200k resistor200k_0 0 1 -2028 -1 0 5738
+use vddcontact vddcontact_0 1 0 11300 0 1 2800
+use vddcontact vddcontact_1 1 0 13500 0 1 2800
+use pmossub2vdd pmossub2vdd_0 1 0 12300 0 1 2800
+use pmossub2vdd pmossub2vdd_1 1 0 14500 0 1 2800
+use vddcontact vddcontact_2 1 0 15700 0 1 2800
+use pmossub2vdd pmossub2vdd_2 1 0 16700 0 1 2800
+node "m1_n1572_n7572#" 5 35.3692 -1572 -7572 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 172 0 0 0 0 0 0 0 0 0 0
+node "D" 1 425.57 14742 -4000 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 90816 1788 0 0 0 0 0 0 0 0 0 0
+node "B" 1 459.76 11732 -3798 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 98000 1932 0 0 0 0 0 0 0 0 0 0
+node "li_1702_n8708#" 26 123.069 1702 -8708 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9372 416 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_894_n8700#" 26 123.069 894 -8700 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9372 416 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_90_n8700#" 26 123.069 90 -8700 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9372 416 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n750_n8722#" 26 123.069 -750 -8722 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9372 416 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n1562_n8734#" 26 123.069 -1562 -8734 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9372 416 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1702_n7850#" 26 123.069 1702 -7850 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9372 416 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_894_n7846#" 26 123.069 894 -7846 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9372 416 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_78_n7846#" 26 123.069 78 -7846 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9372 416 0 0 0 0 0 0 0 0 0 0 0 0
+node "J" 38 6786.76 5650 -7646 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96408 1348 111292 1836 2091888 25480 0 0 0 0 0 0 0 0
+node "li_n1020_n7582#" 26 133.323 -1020 -7582 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10944 448 0 0 0 0 0 0 0 0 0 0 0 0
+node "E" 37 4570.47 4128 -7646 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102292 1384 984576 17576 0 0 0 0 0 0 0 0 0 0
+node "VBGP" 37 6834.27 6268 -1812 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110740 1432 665500 8428 1634612 19812 0 0 0 0 0 0 0 0
+node "F" 35 4537.04 -3478 -1790 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 95200 1352 1274948 16148 0 0 0 0 0 0 0 0 0 0
+node "K" 30 2910.29 7342 -16 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 94128 1312 108528 1792 744152 9444 0 0 0 0 0 0 0 0
+node "VDDA" 26 15609.9 -134 -38 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 118048 1468 118048 1468 118048 1468 15243568 54848 0 0 0 0 0 0
+equiv "VDDA" "VDDA"
+node "A" 1686 10328.9 6898 -8400 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2029412 17272 0 0 25600 640 82292 1340 0 0 0 0 0 0 0 0 0 0
+equiv "A" "A"
+node "I" 134 5611.83 10530 -7862 mvndc 0 0 0 0 0 0 0 0 0 0 0 0 7396 344 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32032 716 495504 8968 178672 2248 1211628 14668 0 0 0 0 0 0
+node "VSSA" 515 31210.6 6830 -7870 mvndc 0 0 0 0 0 0 0 0 0 0 0 0 2400 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 879476 10316 24411160 58168 0 0 0 0 0 0 0 0 0 0
+equiv "VSSA" "VSSA"
+equiv "VSSA" "VSSA"
+node "G" 473 2079.18 7130 -3990 mvndc 0 0 0 0 0 0 0 0 0 0 0 0 2400 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 202000 2404 0 0 44000 1120 325960 5792 0 0 0 0 0 0 0 0 0 0
+equiv "G" "G"
+node "En" 1148 24495.1 7598 -3208 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6543668 26016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "En" "En"
+node "H" 379 2183.48 17040 -1560 mvpdc 0 0 0 0 0 0 0 0 0 0 0 0 14400 480 14400 480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51200 1280 553600 7240 0 0 0 0 0 0 0 0 0 0
+equiv "H" "H"
+node "C" 1474 12008.9 11600 -2200 p 0 0 0 0 0 0 0 0 0 0 0 0 14112 476 14400 480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1980000 13000 0 0 132852 3260 1071360 14392 0 0 0 0 0 0 0 0 0 0
+equiv "C" "C"
+node "a_12640_n1560#" 379 1768.17 12640 -1560 mvpdc 0 0 0 0 0 0 0 0 0 0 0 0 14400 480 14400 480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51200 1280 521600 6840 0 0 0 0 0 0 0 0 0 0
+node "a_15840_2240#" 207 528.547 15840 2240 mvpdc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12768 452 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23104 608 93760 1492 0 0 0 0 0 0 0 0 0 0
+node "a_13640_2240#" 207 528.547 13640 2240 mvpdc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12768 452 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23104 608 93760 1492 0 0 0 0 0 0 0 0 0 0
+node "a_11440_2240#" 204 529.56 11440 2240 mvpdc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14400 480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24016 620 93440 1488 0 0 0 0 0 0 0 0 0 0
+node "w_11000_2800#" 18700 11880 11000 2800 nw 0 0 0 0 3960000 14400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "w_n1946_n10088#" 0 0 -1946 -10088 pw 0 0 17124428 37808 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_11440_2240#" "VDDA" 65.6
+cap "J" "VSSA" 468.468
+cap "m1_n1572_n7572#" "F" 22.5
+cap "G" "En" 648.663
+cap "G" "K" 223.83
+cap "A" "I" 117.559
+cap "F" "VSSA" 87.5455
+cap "En" "VBGP" 224.048
+cap "C" "VBGP" 551.712
+cap "A" "VSSA" 157.2
+cap "K" "VBGP" 269.76
+cap "I" "VSSA" 235.514
+cap "En" "C" 614.751
+cap "VDDA" "w_11000_2800#" 1188
+cap "VSSA" "li_1702_n7850#" 155.571
+cap "VDDA" "a_15840_2240#" 65.6
+cap "E" "VSSA" 166.746
+cap "li_894_n7846#" "VSSA" 121
+cap "li_n1020_n7582#" "VSSA" 17.7872
+cap "a_12640_n1560#" "VBGP" 275.856
+cap "I" "J" 280.62
+cap "a_13640_2240#" "VDDA" 65.6
+cap "a_12640_n1560#" "En" 292.4
+cap "a_12640_n1560#" "C" 670.468
+cap "li_78_n7846#" "VSSA" 121
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_0/w_153_153#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_0/a_330_330#" -5.36453
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_1/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_1/w_153_153#" -10.3223
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_2/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_2/w_153_153#" -5.16114
+subcap "A" -10712.1
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_5/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_5/w_26_26#" 285.471
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_0/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_5/w_26_26#" 413.379
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_8/w_153_153#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/w_26_26#" 31.8017
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/w_26_26#" 1441.84
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/w_26_26#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_0/w_153_153#" 14.4567
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_3/w_153_153#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/w_26_26#" 32.362
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/w_26_26#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_5/w_153_153#" 15.2429
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_4/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_7/w_153_153#" 3.68219
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_2/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_7/w_153_153#" 268.493
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_7/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_7/w_153_153#" 656.567
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_4/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_9/w_153_153#" 287.533
+cap "sky130_fd_pr__pnp_05v5_W3p40L3p40_9/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_9/w_153_153#" 316.166
+subcap "E" -3488.66
+subcap "J" -5739.32
+subcap "J" -4568.07
+subcap "A" -9464.94
+subcap "VSSA" -31562.2
+cap "Nmos520_6/a_2200_n100#" "A" 116.162
+subcap "I" -5864.72
+cap "Nmos520_5/a_2200_n100#" "A" 117.347
+subcap "I" -5410.58
+cap "A" "Nmos520_0/a_2200_n100#" 107.528
+cap "Nmos520_0/a_2200_n100#" "Nmos520_1/a_2200_n100#" 9.89
+subcap "m1_n1572_n7572#" -769.99
+subcap "E" -5673.34
+subcap "J" -7445.5
+subcap "J" -6883.14
+subcap "G" -1851.77
+cap "nmos2metal1_7/a_n20_n20#" "Nmos120_0/a_300_0#" 8.96087
+subcap "G" -1951.6
+cap "nmos2metal1_7/a_n20_n20#" "nmos2metal1_3/a_n20_n20#" 19.7683
+subcap "B" -586.326
+subcap "B" -159.623
+subcap "D" -622.467
+subcap "D" -117.587
+subcap "F" -4011.65
+subcap "VBGP" -6893.43
+subcap "VBGP" -6225.07
+subcap "En" -24582.6
+subcap "En" -23486.6
+subcap "C" -10870.4
+subcap "C" -9718.5
+subcap "a_12640_n1560#" -2159.55
+subcap "a_12640_n1560#" -1231.94
+cap "Pmos520_0/a_1200_0#" "Pmos520_1/w_n400_n400#" 32.448
+cap "Pmos520_2/w_n400_n400#" "Pmos520_1/a_1200_0#" 32.448
+subcap "H" -2311.74
+subcap "H" -1659.99
+subcap "F" -4080.89
+subcap "VDDA" -16544.7
+subcap "VBGP" -6883.45
+subcap "VBGP" -6320.63
+subcap "K" -2862.69
+subcap "K" -3245.8
+subcap "a_12640_n1560#" -1701.61
+cap "Pmos520_1/w_n400_n400#" "Pmos520_0/a_1200_0#" 20.8
+subcap "a_12640_n1560#" -1714.05
+cap "Pmos520_0/a_1200_0#" "Pmos520_1/w_n400_n400#" 50.752
+cap "Pmos520_2/w_n400_n400#" "Pmos520_1/a_1200_0#" 59.072
+subcap "H" -2183.48
+subcap "H" -1735.61
+cap "Pmos520_2/w_n400_n400#" "Pmos520_2/a_1200_0#" 41.6
+subcap "VDDA" -13782.3
+subcap "K" -2658.66
+subcap "K" -1663.52
+subcap "a_11440_2240#" -904.653
+subcap "w_11000_2800#" -10625.4
+cap "w_11000_2800#" "vddcontact_0/m1_0_0#" 11.648
+subcap "w_11000_2800#" -10281.6
+cap "vddcontact_0/m1_0_0#" "w_11000_2800#" 92.952
+merge "pmossub2vdd_2/SUB" "vddcontact_2/SUB" -6655.43 0 0 -30772 0 0 0 0 0 0 0 0 0 -2760 -960 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -126046 -8118 -6452588 -640 0 0 0 0 0 0 0 0 0 0
+merge "vddcontact_2/SUB" "pmossub2vdd_1/SUB"
+merge "pmossub2vdd_1/SUB" "vddcontact_1/SUB"
+merge "vddcontact_1/SUB" "pmossub2vdd_0/SUB"
+merge "pmossub2vdd_0/SUB" "vddcontact_0/SUB"
+merge "vddcontact_0/SUB" "resistor200k_0/SUB"
+merge "resistor200k_0/SUB" "Pmos520_2/SUB"
+merge "Pmos520_2/SUB" "Pmos520_1/SUB"
+merge "Pmos520_1/SUB" "Pmos520_0/SUB"
+merge "Pmos520_0/SUB" "resistor273k_0/SUB"
+merge "resistor273k_0/SUB" "nmos2metal1_11/SUB"
+merge "nmos2metal1_11/SUB" "nmos2metal1_4/SUB"
+merge "nmos2metal1_4/SUB" "nmos2metal1_12/SUB"
+merge "nmos2metal1_12/SUB" "nmos2metal1_9/SUB"
+merge "nmos2metal1_9/SUB" "nmos2metal1_10/SUB"
+merge "nmos2metal1_10/SUB" "nmos2metal1_2/SUB"
+merge "nmos2metal1_2/SUB" "nmos2metal1_3/SUB"
+merge "nmos2metal1_3/SUB" "nmos2metal1_7/SUB"
+merge "nmos2metal1_7/SUB" "Nmos520_4/SUB"
+merge "Nmos520_4/SUB" "nmos2metal1_5/SUB"
+merge "nmos2metal1_5/SUB" "Nmos520_3/SUB"
+merge "Nmos520_3/SUB" "Nmos520_2/SUB"
+merge "Nmos520_2/SUB" "nmos2metal1_1/SUB"
+merge "nmos2metal1_1/SUB" "Nmos520_1/SUB"
+merge "Nmos520_1/SUB" "Nmos520_0/SUB"
+merge "Nmos520_0/SUB" "nmos2metal1_8/SUB"
+merge "nmos2metal1_8/SUB" "nmos2metal1_8/a_n20_n20#"
+merge "nmos2metal1_8/a_n20_n20#" "Nmos520_5/a_2000_0#"
+merge "Nmos520_5/a_2000_0#" "Nmos520_5/SUB"
+merge "Nmos520_5/SUB" "Nmos120_0/SUB"
+merge "Nmos120_0/SUB" "Nmos120_0/a_0_0#"
+merge "Nmos120_0/a_0_0#" "Nmos520_6/SUB"
+merge "Nmos520_6/SUB" "resistor30k_0/SUB"
+merge "resistor30k_0/SUB" "sky130_fd_pr__pnp_05v5_W3p40L3p40_9/w_26_26#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_9/w_26_26#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_8/w_26_26#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_8/w_26_26#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_7/w_26_26#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_7/w_26_26#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/w_153_153#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/w_153_153#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/w_26_26#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/w_26_26#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_5/w_153_153#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_5/w_153_153#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_5/w_26_26#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_5/w_26_26#" "sub2vsscontact_8/a_0_0#"
+merge "sub2vsscontact_8/a_0_0#" "sub2vsscontact_7/a_0_0#"
+merge "sub2vsscontact_7/a_0_0#" "sub2vsscontact_6/a_0_0#"
+merge "sub2vsscontact_6/a_0_0#" "sub2vsscontact_5/a_0_0#"
+merge "sub2vsscontact_5/a_0_0#" "sub2vsscontact_4/a_0_0#"
+merge "sub2vsscontact_4/a_0_0#" "sub2vsscontact_3/a_0_0#"
+merge "sub2vsscontact_3/a_0_0#" "sub2vsscontact_2/a_0_0#"
+merge "sub2vsscontact_2/a_0_0#" "sub2vsscontact_1/a_0_0#"
+merge "sub2vsscontact_1/a_0_0#" "sub2vsscontact_0/a_0_0#"
+merge "sub2vsscontact_0/a_0_0#" "sub2vsscontact_12/a_0_0#"
+merge "sub2vsscontact_12/a_0_0#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_4/w_26_26#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_4/w_26_26#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_4/w_153_153#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_4/w_153_153#" "li_1702_n8708#"
+merge "li_1702_n8708#" "sub2vsscontact_11/a_0_0#"
+merge "sub2vsscontact_11/a_0_0#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_3/w_26_26#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_3/w_26_26#" "sub2vsscontact_10/a_0_0#"
+merge "sub2vsscontact_10/a_0_0#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_2/w_26_26#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_2/w_26_26#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_2/w_153_153#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_2/w_153_153#" "li_90_n8700#"
+merge "li_90_n8700#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_1/w_26_26#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_1/w_26_26#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_1/w_153_153#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_1/w_153_153#" "li_n750_n8722#"
+merge "li_n750_n8722#" "sub2vsscontact_9/a_0_0#"
+merge "sub2vsscontact_9/a_0_0#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_0/w_26_26#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_0/w_26_26#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_0/w_153_153#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_0/w_153_153#" "li_n1562_n8734#"
+merge "li_n1562_n8734#" "w_n1946_n10088#"
+merge "w_n1946_n10088#" "VSSA"
+merge "VSSA" "sky130_fd_pr__pnp_05v5_W3p40L3p40_3/w_153_153#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_3/w_153_153#" "li_894_n8700#"
+merge "li_894_n8700#" "li_n1020_n7582#"
+merge "li_n1020_n7582#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_7/w_153_153#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_7/w_153_153#" "li_78_n7846#"
+merge "li_78_n7846#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_9/w_153_153#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_9/w_153_153#" "li_1702_n7850#"
+merge "li_1702_n7850#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_8/w_153_153#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_8/w_153_153#" "li_894_n7846#"
+merge "resistor200k_0/a_5548_9372#" "nmos2metal1_7/a_n20_n20#" -1270.61 0 0 0 0 0 0 0 0 0 0 0 0 -36000 -940 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 245448 -1292 337440 -480 -22328 -5600 0 0 0 0 0 0 0 0
+merge "nmos2metal1_7/a_n20_n20#" "Nmos520_6/a_2000_0#"
+merge "Nmos520_6/a_2000_0#" "K"
+merge "Pmos520_0/a_1200_0#" "Nmos520_2/a_2200_n100#" -743.277 0 0 0 0 0 0 0 0 0 0 0 0 14400 -480 3840 -480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81600 -640 113220 -1694 0 0 0 0 0 0 0 0 0 0
+merge "Nmos520_2/a_2200_n100#" "nmos2metal1_1/a_n20_n20#"
+merge "nmos2metal1_1/a_n20_n20#" "Nmos520_1/a_3200_0#"
+merge "Nmos520_1/a_3200_0#" "Nmos520_1/a_2200_n100#"
+merge "Nmos520_1/a_2200_n100#" "Nmos120_0/a_100_n100#"
+merge "Nmos120_0/a_100_n100#" "A"
+merge "A" "a_12640_n1560#"
+merge "Nmos520_0/a_2000_0#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_4/a_330_330#" -4115.47 0 0 0 0 0 0 0 0 0 0 0 0 -7396 -344 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -837588 -2529 -84630 -1214 -638564 -10624 0 0 0 0 0 0
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_4/a_330_330#" "I"
+merge "Nmos520_4/a_2200_n100#" "Nmos520_3/a_2200_n100#" -10659.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1987168 -19612 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "Nmos520_3/a_2200_n100#" "Nmos520_0/a_2200_n100#"
+merge "Nmos520_0/a_2200_n100#" "Nmos520_6/a_2200_n100#"
+merge "Nmos520_6/a_2200_n100#" "En"
+merge "resistor30k_0/a_1560_n4060#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_8/a_330_330#" -5117.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -317824 -1336 -3370684 -4320 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_8/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_9/a_330_330#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_9/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_7/a_330_330#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_7/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/a_330_330#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_6/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_3/a_330_330#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_3/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_2/a_330_330#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_2/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_1/a_330_330#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_1/a_330_330#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_0/a_330_330#"
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_0/a_330_330#" "E"
+merge "resistor273k_0/a_9290_n62#" "nmos2metal1_4/a_n20_n20#" -5195.13 0 0 0 0 0 0 0 0 0 0 0 0 -36000 -760 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -139408 -1352 67908 -4025 -1359416 -17036 0 0 0 0 0 0 0 0
+merge "nmos2metal1_4/a_n20_n20#" "Nmos520_4/a_2000_0#"
+merge "Nmos520_4/a_2000_0#" "VBGP"
+merge "nmos2metal1_5/a_n20_n20#" "Nmos520_3/a_3200_0#" -4354.88 0 0 0 0 0 0 0 0 0 0 0 0 -35640 -756 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -189948 -1324 -14884 -488 -1337344 -16832 0 0 0 0 0 0 0 0
+merge "Nmos520_3/a_3200_0#" "resistor30k_0/a_1560_n2556#"
+merge "resistor30k_0/a_1560_n2556#" "J"
+merge "pmossub2vdd_2/w_0_0#" "vddcontact_2/m1_0_0#" 1763.35 0 0 0 0 1589200 -29241 0 0 -32480 0 0 0 0 0 -230304 -1384 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33884 -1292 124052 -960 -42276 0 -2404203 -12826 0 0 0 0 0 0
+merge "vddcontact_2/m1_0_0#" "Pmos520_2/a_0_0#"
+merge "Pmos520_2/a_0_0#" "a_15840_2240#"
+merge "a_15840_2240#" "pmossub2vdd_1/w_0_0#"
+merge "pmossub2vdd_1/w_0_0#" "vddcontact_1/m1_0_0#"
+merge "vddcontact_1/m1_0_0#" "Pmos520_1/a_0_0#"
+merge "Pmos520_1/a_0_0#" "a_13640_2240#"
+merge "a_13640_2240#" "pmossub2vdd_0/w_0_0#"
+merge "pmossub2vdd_0/w_0_0#" "Pmos520_2/w_n400_n400#"
+merge "Pmos520_2/w_n400_n400#" "Pmos520_1/w_n400_n400#"
+merge "Pmos520_1/w_n400_n400#" "Pmos520_0/w_n400_n400#"
+merge "Pmos520_0/w_n400_n400#" "w_11000_2800#"
+merge "w_11000_2800#" "vddcontact_0/m1_0_0#"
+merge "vddcontact_0/m1_0_0#" "Pmos520_0/a_0_0#"
+merge "Pmos520_0/a_0_0#" "a_11440_2240#"
+merge "a_11440_2240#" "resistor200k_0/a_5554_1932#"
+merge "resistor200k_0/a_5554_1932#" "VDDA"
+merge "resistor273k_0/a_n484_n64#" "sky130_fd_pr__pnp_05v5_W3p40L3p40_5/a_330_330#" -1084.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -135116 -1300 -162450 -418 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pnp_05v5_W3p40L3p40_5/a_330_330#" "F"
+merge "F" "m1_n1572_n7572#"
+merge "nmos2metal1_3/a_n20_n20#" "Nmos520_6/a_3200_0#" -995.867 0 0 0 0 0 0 0 0 0 0 0 0 -54600 -1140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 404 -2000 0 0 64000 -360 -51240 -1600 0 0 0 0 0 0 0 0 0 0
+merge "Nmos520_6/a_3200_0#" "Nmos520_5/a_2200_n100#"
+merge "Nmos520_5/a_2200_n100#" "Nmos120_0/a_300_0#"
+merge "Nmos120_0/a_300_0#" "G"
+merge "Pmos520_2/a_1200_0#" "Nmos520_4/a_3200_0#" -848.194 0 0 0 0 0 0 0 0 0 0 0 0 -14400 -480 -72960 -480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25600 -640 -108960 -1682 0 0 0 0 0 0 0 0 0 0
+merge "Nmos520_4/a_3200_0#" "H"
+merge "nmos2metal1_10/a_n20_n20#" "Nmos520_1/a_2000_0#" -307.475 0 0 0 0 0 0 0 0 0 0 0 0 -51840 -1492 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10432 -804 0 0 0 0 0 0 0 0 0 0
+merge "Nmos520_1/a_2000_0#" "nmos2metal1_9/a_n20_n20#"
+merge "nmos2metal1_9/a_n20_n20#" "Nmos520_0/a_3200_0#"
+merge "Nmos520_0/a_3200_0#" "B"
+merge "Pmos520_2/a_200_n100#" "Pmos520_1/a_1200_0#" -2485.14 0 0 0 0 0 0 0 0 0 0 0 0 -49752 -1412 -74240 -480 0 0 0 0 0 0 0 0 0 0 0 0 0 0 245000 -6000 0 0 -29808 -692 -216774 -2234 0 0 0 0 0 0 0 0 0 0
+merge "Pmos520_1/a_1200_0#" "Pmos520_1/a_200_n100#"
+merge "Pmos520_1/a_200_n100#" "Pmos520_0/a_200_n100#"
+merge "Pmos520_0/a_200_n100#" "Nmos520_2/a_2000_0#"
+merge "Nmos520_2/a_2000_0#" "nmos2metal1_2/a_n20_n20#"
+merge "nmos2metal1_2/a_n20_n20#" "Nmos520_5/a_3200_0#"
+merge "Nmos520_5/a_3200_0#" "C"
+merge "nmos2metal1_12/a_n20_n20#" "Nmos520_3/a_2000_0#" -248.957 0 0 0 0 0 0 0 0 0 0 0 0 -15840 -1508 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20020 -748 0 0 0 0 0 0 0 0 0 0
+merge "Nmos520_3/a_2000_0#" "nmos2metal1_11/a_n20_n20#"
+merge "nmos2metal1_11/a_n20_n20#" "Nmos520_2/a_3200_0#"
+merge "Nmos520_2/a_3200_0#" "D"

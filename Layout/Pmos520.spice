@@ -1,0 +1,7 @@
+* SPICE3 file created from Pmos520.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 a_600_0# a_100_n100# a_0_0# w_n200_n200# sky130_fd_pr__pfet_g5v0d10v5 ad=2.09715e+06 pd=0 as=0 ps=8 w=2000 l=500
+C0 a_100_n100# SUB 1.83fF
+C1 w_n200_n200# SUB 31.68fF

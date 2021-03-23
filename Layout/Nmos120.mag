@@ -1,0 +1,12 @@
+magic
+tech sky130A
+timestamp 1615566045
+<< mvnmos >>
+rect 50 0 150 2000
+<< mvndiff >>
+rect 0 0 50 2000
+rect 150 0 200 2000
+<< poly >>
+rect 50 2000 150 2050
+rect 50 -50 150 0
+<< end >>
