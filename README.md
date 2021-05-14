@@ -211,7 +211,7 @@ After successful installation, type:-
 >` magic -T ../libs/sky130A.tech BGR.mag`
 <p>&nbsp;</p>
 
-![Layout](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/photo/Layout.png)
+![Layout](https://raw.githubusercontent.com/vsdip/avsdbgp_3v3_sky130_v2/main/photo/layout.png)
 <p>&nbsp;</p>
 
 # Post-Layout Simulation plots of Bandgap Reference IP circuit
