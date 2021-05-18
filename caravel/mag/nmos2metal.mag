@@ -1,0 +1,21 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1621345663
+<< error_p >>
+rect 20 20 180 180
+<< pwell >>
+rect -6 -6 206 206
+<< mvndiff >>
+rect 20 151 180 180
+rect 20 49 49 151
+rect 151 49 180 151
+rect 20 20 180 49
+<< mvndiffc >>
+rect 49 49 151 151
+<< locali >>
+rect 0 151 200 200
+rect 0 49 49 151
+rect 151 49 200 151
+rect 0 0 200 49
+<< end >>

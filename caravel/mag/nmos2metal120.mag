@@ -1,0 +1,20 @@
+magic
+tech sky130A
+timestamp 1621345663
+<< error_p >>
+rect -8 -8 25 25
+<< pwell >>
+rect -21 -21 38 38
+<< mvndiff >>
+rect -8 17 25 25
+rect -8 0 0 17
+rect 17 0 25 17
+rect -8 -8 25 0
+<< mvndiffc >>
+rect 0 0 17 17
+<< locali >>
+rect -8 17 25 25
+rect -8 0 0 17
+rect 17 0 25 17
+rect -8 -8 25 0
+<< end >>
